@@ -7,7 +7,7 @@ task :reinstall_gems do
     versions = line.split('(')[1].chomp.delete(' )').split(',')
     
     versions.each do | version |
-      cmd = "sudo gem install #{name} --version=#{version}"
+      cmd = "sudo gem install #{name} --version=#{version}  --ignore-dependencies"
       puts cmd
       system cmd
     end    
