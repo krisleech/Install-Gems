@@ -6,7 +6,7 @@ gem list > gems.txt
 
 [Sometime later... maybe after a clean os install]
 
-rake install_gems file=/Volumes/BackupDrive/gems.txt
+rake reinstall_gems file=/Volumes/BackupDrive/gems.txt
 
 NOTES
 
